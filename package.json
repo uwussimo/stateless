@@ -1,0 +1,14 @@
+{
+  "name": "stateless",
+  "version": "1.0.0",
+  "description": "StateLess Telegram bot manager",
+  "main": "app.js",
+  "author": "Mukhammadyusuf Abdurkahimov",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "grammy": "^1.9.0"
+  }
+}
