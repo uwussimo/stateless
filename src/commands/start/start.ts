@@ -1,10 +1,16 @@
 import { Composer } from 'grammy';
 import { langKeyboard, languageKeyboard } from './updateLanguage';
+import { i18n } from './../../translations/';
 export const start = new Composer();
 
-start.use(langKeyboard);
 start.command('start', (ctx) => {
-  ctx.reply("Hello we'lcome to our bot!  Please select the language", {
-    reply_markup: languageKeyboard,
-  });
+  ctx.reply(
+    ctx?.from?.language_code == 'en'
+      ? i18n.english.WELCOME_MESSAGE
+      : i18n.uzbek.WELCOME_MESSAGE,
+    {
+      reply_markup: languageKeyboard,
+    }
+  );
 });
+start.use(langKeyboard);
