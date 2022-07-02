@@ -12,8 +12,7 @@ const bot = new Bot<MyContext>(process.env.TOKEN || ''); // <-- put your bot tok
 
 bot.use(
   session({
-    initial: () => ({ language: 'uz' }),
-    // storage: freeStorage<SessionData>(bot.token),
+    initial: () => ({ stage: 'language', language: 'uz' }),
   })
 );
 
