@@ -2,5 +2,8 @@
   "name": "Uzbek",
   "version": "1.0",
   "WELCOME_MESSAGE": "Iltimos tilni tanlang",
-  "REGISTER_BUTTON": "Ro'yxatdan o'tish!"
+  "REGISTER_BUTTON": "Ro'yxatdan o'tish!",
+  "SELECTED_LANGUAGE": "Siz o'zbek tilini tanladingiz",
+  "SEND_PHONE_NUMBER": "Telefon raqami kiriting",
+  "PHONE_NUMBER_BUTTON": "Telefon raqamni yuborish"
 }

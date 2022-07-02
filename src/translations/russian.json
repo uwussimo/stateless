@@ -1,5 +1,8 @@
 {
   "name": "Russian",
   "version": "1.0",
-  "REGISTER_BUTTON": "Зарегистрироваться!"
+  "REGISTER_BUTTON": "Зарегистрироваться!",
+  "SELECTED_LANGUAGE": "Вы выбрали русский язык!",
+  "SEND_PHONE_NUMBER": "Отправить номер телефона",
+  "PHONE_NUMBER_BUTTON": "Отправьте свой номер телефона"
 }
