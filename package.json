@@ -5,7 +5,17 @@
   "main": "app.js",
   "author": "Mukhammadyusuf Abdurkahimov",
   "license": "MIT",
+  "scripts": {
+    "start": "node ./dist/bot.js",
+    "build": "tsc",
+    "watch": "tsc -w",
+    "develop": "nodemon ./dist/bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "devDependencies": {
+    "@types/node": "^18.0.0",
+    "dotenv": "^16.0.1",
+    "nodemon": "^2.0.18",
     "typescript": "^4.7.4"
   },
   "dependencies": {
