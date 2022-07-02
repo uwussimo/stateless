@@ -8,7 +8,7 @@ const languageKeyboard = new InlineKeyboard()
   .text('🇷🇺 Russian', 'russian');
 
 const phoneKeyboard = (lang: string) => {
-  return new Keyboard().text(i18n(lang).PHONE_NUMBER_BUTTON);
+  return new Keyboard().requestContact(i18n(lang).PHONE_NUMBER_BUTTON);
 };
 
 const changeLanguage = async (ctx: any) => {
@@ -18,6 +18,8 @@ const changeLanguage = async (ctx: any) => {
     reply_markup: {
       keyboard: phoneKeyboard(ctx.session.language).build(),
       resize_keyboard: true,
+      one_time_keyboard: true,
+      remove_keyboard: true,
     },
   });
   await ctx.deleteMessage();

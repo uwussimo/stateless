@@ -1,6 +1,7 @@
 import { Composer } from 'grammy';
 import { langKeyboard, languageKeyboard } from './updateLanguage';
 import { i18n } from './../../translations/';
+import { register } from './register/register';
 export const start = new Composer();
 
 start.command('start', (ctx: any) => {
@@ -11,3 +12,4 @@ start.command('start', (ctx: any) => {
   }
 });
 start.use(langKeyboard);
+start.use(register);

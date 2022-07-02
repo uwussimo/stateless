@@ -4,5 +4,6 @@
   "REGISTER_BUTTON": "Зарегистрироваться!",
   "SELECTED_LANGUAGE": "Вы выбрали русский язык!",
   "SEND_PHONE_NUMBER": "Отправить номер телефона",
-  "PHONE_NUMBER_BUTTON": "Отправьте свой номер телефона"
+  "PHONE_NUMBER_BUTTON": "Отправьте свой номер телефона",
+  "REG_SUCCESS": "Вы успешно зарегистрировались"
 }
