@@ -6,7 +6,7 @@ export const start = new Composer();
 
 start.command('start', (ctx: any) => {
   if (ctx.session.stage == 'language') {
-    ctx.reply(i18n(ctx.session.language).WELCOME_MESSAGE, {
+    ctx.reply(i18n(ctx.session.language).CHOOSE_LANGUAGE, {
       reply_markup: languageKeyboard,
     });
   }

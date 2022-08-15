@@ -2,6 +2,7 @@
   "name": "English",
   "version": "1.0",
   "WELCOME_MESSAGE": "Hello please choose your language",
+  "CHOOSE_LANGUAGE": "Hello please choose your language",
   "SELECTED_LANGUAGE": "Selected language is English",
   "SEND_PHONE_NUMBER": "Please send your phone number",
   "PHONE_NUMBER_BUTTON": "Send your phone number",
